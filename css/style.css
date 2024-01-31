@@ -1,0 +1,254 @@
+:root {
+    --color-white: white;
+    --color-text: black;
+    --color-highlight: gray;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    color: var(--color-text);
+    font-family: 'Times New Roman', Times, serif;
+background-color: beige;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-text);
+}
+
+a,
+.btn {
+    transition: all 300ms ease;
+}
+
+.n-text {
+    font-size: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+nav {
+    display: block;
+}
+
+.nav-link:hover {
+
+    cursor: pointer !important;
+    color: var(--color-text) !important;
+    text-decoration: underline;
+    text-underline-offset: .8rem;
+    text-decoration-color: var(--color-highlight);
+    transition: all .5s ease;
+}
+
+.full-height {
+
+    min-height: 100vh;
+    height: 100%;
+}
+
+.img-about {
+    width: 200px;
+}
+
+.img-about:hover {
+
+    box-shadow: 0px 15px 12px black;
+}
+
+.cursor-default {
+    cursor: default !important;
+}
+
+.btn1 {
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.btn1:hover {
+    background-color: gray;
+    color: black;
+    border: none;
+
+}
+
+.btn2 {
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.btn2:hover {
+
+    background-color: gray !important;
+    color: black !important;
+}
+
+.content {
+    top: 50%;
+    bottom: 50%;
+}
+
+
+.custom-image {
+    width: 300px;
+    height: 300px;
+}
+
+#about img {
+
+    margin-top: 12px;
+}
+
+#about .text-container {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.about-icons {
+    margin-top: 10px;
+}
+
+.parent-content {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.parent-content:hover {
+    box-shadow: inset 0px 0px 5px 0px black;
+
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.parent-container {
+    margin-top: 30px;
+}
+
+.u-line {
+    text-decoration: underline;
+    text-underline-offset: .6rem;
+}
+
+section {
+    position: relative;
+}
+
+.arrow-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+#home .arrow-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 50px;
+    bottom: 215px;
+}
+
+
+section ul li a {
+    color: var(--color-highlight) !important;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    color: var(--color-white);
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#experience ul li {
+
+    list-style-type: none;
+
+}
+
+.btn3 {
+    width: auto;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#project .parent-content {
+
+    width: 300px;
+
+}
+
+#project img {
+    overflow: hidden;
+}
+
+
+
+#contact h5 {
+    margin-top: 100px;
+}
+
+#contact .parent-content {
+    margin-top: 40px;
+}
+.foot{
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+    transition: all 1s;
+
+}
+
+#contact .nav-link:hover {
+
+    cursor: pointer !important;
+    color: var(--color-text) !important;
+    text-decoration: underline;
+    text-underline-offset: -1.7rem;
+    text-decoration-color: var(--color-highlight);
+    transition: all .5s ease;
+}
+
+.fa-medal{
+    font-size: 17px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    
+}

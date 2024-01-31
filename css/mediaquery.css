@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+
+    
+}
+
+
+
+    /* Custom CSS */
+    @media (max-width: 768px) {
+      .navbar-custom {
+        background-color: gray !important;
+      }
+      .navbar-custom .navbar-nav .nav-link, .navbar-custom {
+        color: white  !important;
+      }
+
+      .custom-image {
+        width: 250px;
+        height: 250px;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+    }
+    }
