@@ -83,7 +83,10 @@ nav {
     border: 1px solid black;
     outline: none;
 }
-
+.button-container{
+    margin: 10px auto;
+    padding: 10px auto;
+}
 .btn1:hover {
     background-color: gray;
     color: black;
@@ -119,6 +122,10 @@ nav {
 #about img {
 
     margin-top: 12px;
+}
+.text-container-hero{
+    margin: 1rem auto;
+    padding: 10px;
 }
 
 #about .text-container {
@@ -223,13 +230,13 @@ footer {
 #contact .parent-content {
     margin-top: 40px;
 }
-.foot{
+/* .foot{
     position: absolute;
     bottom: 10px;
     left: 400px;
     transition: all 1s;
 
-}
+} */
 
 #contact .nav-link:hover {
 
@@ -251,4 +258,8 @@ footer {
     border: none;
     outline: none;
     
+}
+
+.foot{
+    margin-top: 370px;
 }

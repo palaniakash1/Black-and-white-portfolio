@@ -1,11 +1,34 @@
-@media screen and (max-width: 1200px) {
+/* >>>>>>>>     m o b i l e  s c r e e n    s i z e <<<<<<<<<<<<<<<<<<<<<<< */
+/* Custom CSS */
+/* 
+    @media (max-width: 500px) {
+.navbar,footer{
+    max-width: 390px;
+  }
 
-    
-}
+  #home {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly
+  }
+
+  #home {
+    max-width: 500px;
+    gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  #experience .parent-content,
+  #contact .parent-content {
+    max-width: 350px;
+  }
+
+      
 
 
+    }
 
-    /* Custom CSS */
     @media (max-width: 768px) {
       .navbar-custom {
         background-color: gray !important;
@@ -18,10 +41,60 @@
         width: 250px;
         height: 250px;
     }
+
+    #home h5{
+      margin-top: 25px;
+    }
+
+
+
     footer{
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       
     }
+    #about .parent-container{
+      text-align: center;
+      display: flex;
+      justify-content: center;
     }
+    .education-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    } */
+
+
+@media screen and (max-width: 1200px) {}
+
+
+
+/* Custom CSS */
+@media (max-width: 768px) {
+  .navbar-custom {
+    background-color: gray !important;
+  }
+
+  .navbar-custom .navbar-nav .nav-link,
+  .navbar-custom {
+    color: white !important;
+  }
+
+  .custom-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  #experience .parent-content,
+  #contact .parent-content {
+    max-width: 350px;
+  }
+}
